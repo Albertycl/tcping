@@ -1,5 +1,7 @@
 # tcping
 
+**Live demo:** https://tcping.albertycliu.xyz (no login on purpose, for the demo; the probes are simulated)
+
 A web tool that runs network diagnostics (TCP ping, MTR / traceroute, dig, curl, HTTP ping and custom commands) from a list of probe servers in different countries and ISPs, and shows the results live in the browser.
 
 > **Demo only.** The original probe servers no longer exist, so the probes are **simulated** by `backend/utils/probe_sim.py`. It reads the command, never runs it, and writes believable output. Nothing here talks to a real probe or a real SSH server.
